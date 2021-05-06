@@ -1,2 +1,7 @@
+numpy
+seaborn
+pytz
 torch
 torchvision
+wget
+gdown

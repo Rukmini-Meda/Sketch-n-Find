@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from base_net import SketchANet
+from models.base_net import SketchANet
 
 class TripletNet(nn.Module):
 
