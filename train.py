@@ -10,7 +10,7 @@ import torchvision.utils as vutils
 # from evaluate import evaluate
 from utils import *
 from models.triplet_net import TripletNet
-from data.models.data_preparation import TrainDataLoader
+from data_preparation import TrainDataLoader
 from tqdm import tqdm
 
 class ModelTrainer():

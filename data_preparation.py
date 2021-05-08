@@ -51,8 +51,8 @@ class SketchyTripletDataset(Dataset):
 class DataPreparator():
     
     def __init__(self):
-        # self.output_folder = "dataset/rendered_256x256"
-        self.output_folder = "dataset"
+        self.output_folder = "dataset/rendered_256x256"
+        # self.output_folder = "dataset"
         self.id = "tx_000000000000"
         if not self._check_exists():
             download_extract_sketchy_dataset()
@@ -114,6 +114,7 @@ class DataPreparator():
         
 
 def create_utils(dataset):
+    print("Creating utils")
     # I need class - count map
     # I need class - images list map
     class_to_idx = {}
@@ -130,5 +131,5 @@ def create_utils(dataset):
     for image, label in dataset:
         class_counts[label] += 1
         class_images_list[label].append(image)
-
+    print("Done!")
     return total_classes, class_counts, class_images_list
