@@ -51,8 +51,8 @@ class SketchyTripletDataset(Dataset):
 class DataPreparator():
     
     def __init__(self):
-        self.output_folder = "dataset/rendered_256x256"
-        # self.output_folder = "dataset"
+        # self.output_folder = "dataset/rendered_256x256"
+        self.output_folder = "dataset"
         self.id = "tx_000000000000"
         if not self._check_exists():
             download_extract_sketchy_dataset()
