@@ -1,0 +1,12 @@
+Train - Val - Test split = 80 - 10 - 10:
+
+Batch size = 1, Epochs = 1, Dataset size per class = 5, LR = 0.01, Grayscale => Plot generated
+Batch size = 40, Epochs = 1, Dataset size = 1/4th, LR = 0.01, Grayscale, With validation => Final training average triplet loss = 1.027180, plot generated
+Batch size = 5, Epochs = 1, Dataset size = 1/10th, LR = 0.01, Grayscale, With validation => Final training average triplet loss = 1.180013, average validation loss = 1.0515, plot generated
+Batch size = 6, Epochs = Ran for 10, stopped at 5 (Memory exhaust), Dataset size = 1/10th, LR = 0.001, RGB => Training loss = 1.271072, Validation loss = 1.5651826858520508, plot not generated
+Batch size = 10, Epochs = 5, Dataset size = 1/10th, LR = 0.01, Grayscale => Plot generated (Deepthi)
+
+Train - Val - Test split = 60 - 20 - 20:
+
+Batch size = 40, Epochs = 8, Dataset size = 1/4th, LR = 0.01, Grayscale => Average validation loss = 0.99, average training loss = 1.057064, plot generated
+Batch size = 40, Epochs = Ran for 10, stopped at 5 (memory exhuast), Dataset size = 1/4th, LR = 0.001, Grayscale => Final training average triplet loss = 0.963860, Plot not generated

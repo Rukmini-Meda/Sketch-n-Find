@@ -3,5 +3,15 @@
 /myenv
 /venv
 /env
-*/__pycache__
+/__pycache__
+models/__pycache__
+data/__pycache__
+/mini_sketchy_dataset
 /dataset
+/sketchy_dataset
+/sketchy_data
+/half_sketchy_data
+/quarter_sketchy_data
+/quarter_sketchy_data_80_10_10
+/tenth_sketchy_data
+/trained_models

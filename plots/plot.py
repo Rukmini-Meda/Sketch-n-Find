@@ -1,1 +1,0 @@
-# Add plots and images in this folder
